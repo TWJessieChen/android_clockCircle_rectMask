@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RectMaskViewViewAttr">
+        <attr name="select_color" format="color"/>
+        <attr name="unselect_color" format="color"/>
+        <attr name="trigger_color" format="color"/>
+        <attr name="row_column" format="integer"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="disabled_gray">#FF999999</color>
+
+
+    <!--clock color -->
+    <color name="circle_bg">#FFFFFF</color>
+    <color name="dot_track_arc">#a5e4fe</color>
+    <color name="clock_bg">#4db7e3</color>
+
+    <!--rect color -->
+    <color name="rect_bg">#FFFFFF</color>
+    <color name="select_color">#333333</color>
+    <color name="unselect_color">#a5e4fe</color>
+    <color name="trigger_color">#858585</color>
+
+</resources>

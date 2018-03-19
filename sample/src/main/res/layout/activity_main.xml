@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:RectMaskViewAttr="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:paddingTop="24dp"
+              android:background="@color/clock_bg">
+
+    <com.tripadvisor.seekbar.sample.ClockCircleTwoDotView
+            android:id="@+id/clock_circle_two_dot_view"
+            android:layout_width="222dp"
+            android:layout_height="222dp"
+            android:layout_gravity="center"/>
+
+    <com.tripadvisor.seekbar.sample.RectMaskView
+            android:id="@+id/rect_mask_view"
+            android:layout_width="256dp"
+            android:layout_height="256dp"
+            android:layout_gravity="center"
+            RectMaskViewAttr:row_column="16"
+            RectMaskViewAttr:select_color="@color/select_color"
+            RectMaskViewAttr:unselect_color="@color/unselect_color"
+            RectMaskViewAttr:trigger_color="@color/trigger_color"/>
+
+    <TextView
+            android:id="@+id/start_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dip"
+            android:maxWidth="60dp"
+            android:text="Start time: "
+            android:textAllCaps="true"
+            android:textColor="@color/disabled_gray"
+            android:textSize="13dip" />
+
+    <TextView
+            android:id="@+id/end_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dip"
+            android:maxWidth="60dp"
+            android:text="End time: "
+            android:textAllCaps="true"
+            android:textColor="@color/disabled_gray"
+            android:textSize="13dip" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text=" Click me! "
+        android:id="@+id/btn"
+    />
+
+    <!--<ListView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:id="@+id/list_view"/>-->
+
+
+</LinearLayout>
